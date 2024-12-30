@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+
+    background-image: url("back1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aqua;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black; /* Improve visibility */
+    margin: 0 30px; /* Add spacing between links */
+    font-family: Poppins;
+}
+
+a:hover {
+    color: blue; /* Add hover effect for better interaction */
+}
+
+h1 {
+    display: inline-block;
+    font-size: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+span{
+    font-family: Edu AU VIC WA NT Arrows;
+    font-weight: 900;
+    font-size: 50px;
+}
+.the{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+}
+h2, h3{
+    font-size: 40px;
+    text-transform: capitalize;
+    font-family: roboto;
+    letter-spacing: 10px;
+    font-weight: 800;
+    color: #00BBC9;
+    background-color: #00008B
+    ;
+}
+.thee{
+   
+}
+
+#textani{
+    animation: text 2s ease 1;
+    background-color: black;
+    transition: all 0.4s ease-in-out;
+
+}
+
+@keyframes text {
+    0%{
+        color: aqua;
+        letter-spacing: 20px;
+        margin-top: -50px;
+
+    }
+    50%{
+        letter-spacing: 9px;
+        margin-top: -50px;
+    }
+    
+}
+#textani:hover{
+   font-size: 45px;
+
+}
